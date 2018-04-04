@@ -1,0 +1,276 @@
+/*----header----*/
+
+
+.tnav
+{
+	text-align: right;
+	margin-top: 20px;
+	}
+
+#gmail
+{
+	margin-right: 11px;
+	font-size:13px;
+}
+
+#images
+{
+	margin-right: 16px;
+	font-size:13px;
+}
+
+#apps
+{
+	margin-right:17px;
+	font-size:13px;
+}
+
+#connexion
+{
+	margin-right: 30px;
+	font-size:13px;
+	font-style: normal;
+	color:white;
+	border-radius: 2px;
+	font-weight: bold;
+
+}
+.box
+{
+	border-style:solid;
+	border-width : 9px 13px 9px 13px;
+	background-color: #5985f2;
+	border-color: #5985f2;
+
+}
+
+
+.tnav a
+{
+	color:black;
+    text-decoration: none;
+}
+
+#gmail:hover
+{
+	text-decoration: underline;
+}
+#images:hover
+{
+	text-decoration: underline;
+}
+
+/*----main----*/
+
+
+#mainlogo
+{
+	padding-top:109px;
+	position:fixed;
+	top:9.6%;
+	left:43%;
+}
+
+
+#search
+{
+	position:fixed;
+	top:34.5%;
+	left:35%;
+	line-height: 3em;
+	background-color:white;
+	border-top: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, .2);
+}
+
+#recherche
+{
+position:fixed;
+top:43%;
+left:43%;
+background-color: #f9f7f7;
+border : 0px solid;
+padding: 9px 15px;
+font-size: 12px;
+font-weight: bold;
+color:rgba(0,0,0,.5);
+}
+
+
+
+
+#jaidlachance
+{
+position:fixed;
+top:43%;
+left:51%;
+background-color: #f9f7f7;
+border : 0px solid;
+padding: 9px 15px;
+font-size: 12px;
+font-weight: bold;
+color:rgba(0,0,0,.5);
+}
+
+#recherche:hover
+{
+	border : 1px solid #c1c5cc;
+	font-size:12px;
+	color:black;
+	border-radius:4%;
+}
+
+#jaidlachance:hover
+{
+	border : 1px solid #c1c5cc;
+	font-size:12px;
+	color:black;
+	border-radius:4%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----footer----*/
+
+.country
+{
+	margin-top:41.5%;
+	width:100%;
+	background-color:#f9f7f7;
+	padding:10px 0px;
+	border-bottom : 1px solid #e4e4e4;
+	border-top : 1px solid #e4e4e4;
+}
+#country
+{
+	margin-left:27px;
+	margin-top: 3px;
+	text-align:left;
+	opacity: 0.54;
+}
+
+#publicite
+{
+	margin-top: 3px;
+	opacity: 0.54;
+	text-align:left;
+	margin-left:27px;
+	font-size:12px;
+
+}
+#publicite:hover
+{
+	text-decoration: underline;
+}
+#entreprise:hover
+{
+	text-decoration: underline;
+}
+#apropos:hover
+{
+	text-decoration: underline;
+}
+#entreprise
+{
+	margin-top: 3px;
+	opacity:0.54;
+	margin-left:27px;
+	font-size:12px;
+}
+
+#apropos
+{
+	margin-top: 3px;
+	opacity:0.54;
+	margin-left:27px;
+	font-size:12px;
+}
+
+.stuff
+{
+	margin-top:0%;
+	width:100%;
+	background-color:#f9f7f7;
+	padding:9px 0px;
+}
+
+.country a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.stuff a
+{
+	text-decoration:none;
+	color: black;
+}
+
+#infoconsommateurs
+{
+	margin-top: 3px;
+	opacity: 0.54;
+	margin-left:1101px;
+	font-size:12px;
+
+}
+#confidentialite
+{
+	margin-top: 3px;
+	opacity: 0.54;
+	margin-left:27px;
+	font-size:12px;
+
+}
+#conditions
+{
+	margin-top: 3px;
+	opacity: 0.54;
+	margin-left:27px;
+	font-size:12px;
+
+}
+#parametres
+{
+	margin-top: 3px;
+	opacity: 0.54;
+	margin-left:27px;
+	font-size:12px;
+
+}
+
+#infoconsommateurs:hover
+{
+	text-decoration: underline;
+}
+
+#confidentialite:hover
+{
+	text-decoration: underline;
+}
+
+#conditions:hover
+{
+	text-decoration: underline;
+}
+
+#parametres:hover
+{
+	text-decoration: underline;
+}
