@@ -5,7 +5,7 @@ b = 0
 c = 0
 tab = Hash.new
 ptab = Hash.new
-page = Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/")) #liens principal
+page = Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/")) #page principal
 page.xpath("//a[@class='currency-name-container']").each do |currencyname|	#nom des cryptos
 cname = currencyname.text	#variable pour stocker le nom des cryptos en texte											
 tab[a] = {"#{a}" => "#{cname}" }	#insertion dans le tableau noms
